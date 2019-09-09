@@ -13,3 +13,6 @@ You can come and visit me anytime you wish
 All of the announcements including homeworks and projects about the course will be published here
 
 furkan.gozukara@toros.edu.tr
+
+Course hour : 9am - at C103 lab
+
