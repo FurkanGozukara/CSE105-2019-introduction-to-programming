@@ -1,0 +1,7 @@
+Install with the following order
+
+1: Visual Studio 2019 Community Edition : https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16
+
+2: Sql Server 2017 Developer Edition : https://go.microsoft.com/fwlink/?linkid=853016
+
+3: Sql Server Management Studio 18 : https://go.microsoft.com/fwlink/?linkid=2099720
