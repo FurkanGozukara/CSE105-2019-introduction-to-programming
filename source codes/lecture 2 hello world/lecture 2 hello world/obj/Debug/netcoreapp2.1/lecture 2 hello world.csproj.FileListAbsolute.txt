@@ -1,0 +1,11 @@
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 2 hello world\lecture 2 hello world\bin\Debug\netcoreapp2.1\lecture 2 hello world.deps.json
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 2 hello world\lecture 2 hello world\bin\Debug\netcoreapp2.1\lecture 2 hello world.runtimeconfig.json
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 2 hello world\lecture 2 hello world\bin\Debug\netcoreapp2.1\lecture 2 hello world.runtimeconfig.dev.json
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 2 hello world\lecture 2 hello world\bin\Debug\netcoreapp2.1\lecture 2 hello world.dll
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 2 hello world\lecture 2 hello world\bin\Debug\netcoreapp2.1\lecture 2 hello world.pdb
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 2 hello world\lecture 2 hello world\obj\Debug\netcoreapp2.1\lecture 2 hello world.csprojAssemblyReference.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 2 hello world\lecture 2 hello world\obj\Debug\netcoreapp2.1\lecture 2 hello world.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 2 hello world\lecture 2 hello world\obj\Debug\netcoreapp2.1\lecture 2 hello world.AssemblyInfoInputs.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 2 hello world\lecture 2 hello world\obj\Debug\netcoreapp2.1\lecture 2 hello world.AssemblyInfo.cs
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 2 hello world\lecture 2 hello world\obj\Debug\netcoreapp2.1\lecture 2 hello world.dll
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 2 hello world\lecture 2 hello world\obj\Debug\netcoreapp2.1\lecture 2 hello world.pdb
