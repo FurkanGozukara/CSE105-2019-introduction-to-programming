@@ -10,14 +10,14 @@ namespace lecture_3
             //here it takes your computers own language
 
             CultureInfo.CurrentCulture = new CultureInfo("en-US");
-         
+
             printMoney(122.32);
             printNumbers();
 
             //here it takes en us language because we have set it to
 
             DateTime dtNow = DateTime.Now;
-            
+
             //function call
             printOurScreen(dtNow);
 
@@ -33,6 +33,11 @@ namespace lecture_3
             printOurScreen(dtNow);
 
             printArrayNumbers();
+
+            //this below line clears the console
+            Console.Clear();
+
+            printNumbersAsForLoop();
 
             Console.ReadLine();
         }
@@ -97,6 +102,23 @@ namespace lecture_3
             Console.WriteLine("third element (2 index) of the array is " + myIntegerArray[2]);
             Console.WriteLine("fourth element (3 index) of the array is " + myIntegerArray[3]);
             Console.WriteLine("fifth element (4 index) of the array is " + myIntegerArray[4]);
+        }
+
+        static void printNumbersAsForLoop()
+        {
+            Console.WriteLine("below is for loop");
+
+            int[] myIntegerArray = new int[] { 12, 54, 24, 123, 645, 3421, 23 };
+            //this composes an array of size 7
+
+            //myIntegerArray[7] = 7; this gives error because array size is 7 and index 7 means 8th element
+
+            for (int i = 0; i < 7; i++)
+            {
+                //Console.WriteLine(i);
+                Console.WriteLine((i + 1) + "th element (" + i + 
+                    " index) of the array is " + myIntegerArray[i]);
+            }
         }
 
     }
