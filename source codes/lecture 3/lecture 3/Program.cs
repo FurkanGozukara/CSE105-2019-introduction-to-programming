@@ -32,6 +32,8 @@ namespace lecture_3
 
             printOurScreen(dtNow);
 
+            printArrayNumbers();
+
             Console.ReadLine();
         }
 
@@ -71,5 +73,31 @@ namespace lecture_3
             Console.WriteLine("P1 = " + dblNum.ToString("P1"));
             Console.WriteLine("P2 = " + dblNum.ToString("P2"));
         }
+
+        //what is static non static in c#
+        //what is private public protected in c#
+        //what is void non void in c#
+
+        static void printArrayNumbers()
+        {
+            //first parameter is the array holding variable type
+            //second parameter is how many dimensions array
+            //third parameter is array name
+            int[] myIntegerArray = new int[5];
+            //here at the right side we have initialize it with new keyword
+            //array size can not be changed after initialized
+
+            myIntegerArray[2] = 5;
+            myIntegerArray[0] = 7;
+            myIntegerArray[1] = 2;
+            myIntegerArray[3] = 4;
+
+            Console.WriteLine("first element (0 index) of the array is " + myIntegerArray[0]);
+            Console.WriteLine("second element (1 index) of the array is " + myIntegerArray[1]);
+            Console.WriteLine("third element (2 index) of the array is " + myIntegerArray[2]);
+            Console.WriteLine("fourth element (3 index) of the array is " + myIntegerArray[3]);
+            Console.WriteLine("fifth element (4 index) of the array is " + myIntegerArray[4]);
+        }
+
     }
 }
