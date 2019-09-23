@@ -75,6 +75,9 @@ namespace lecture_2_hello_world
 
             Console.WriteLine(doubleNumber.ToString());
 
+            //culture info is used to sync how numbers are written in different languages such as
+            // 12412 in us english is 12,412.43 meanwhile in turkish 12.412,12
+
             //CultureInfo ci = new CultureInfo("tr-TR");
             //Thread.CurrentThread.CurrentCulture = ci;
             //Thread.CurrentThread.CurrentUICulture = ci;
