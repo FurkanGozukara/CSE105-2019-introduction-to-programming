@@ -10,16 +10,25 @@ namespace lecture_3
             //here it takes your computers own language
 
             CultureInfo.CurrentCulture = new CultureInfo("en-US");
+         
+            printMoney(122.32);
+            printNumbers();
 
-            //here it takes en us language
+            //here it takes en us language because we have set it to
 
             DateTime dtNow = DateTime.Now;
-
+            
+            //function call
             printOurScreen(dtNow);
 
             CultureInfo.CurrentCulture = new CultureInfo("tr-TR");
 
-            //here it takes tr turkish language
+            //here it takes tr turkish language because we have set it to
+
+            double dblMoney = 122.32;
+
+            printMoney(dblMoney);
+            printNumbers();
 
             printOurScreen(dtNow);
 
@@ -41,6 +50,26 @@ namespace lecture_3
             Console.WriteLine("Ticks 1: " + dtNow.Ticks.ToString("N0"));
             //with n0 we are formatting number into seperated by ,
             Console.WriteLine("Ticks 2: " + DateTime.Now.Ticks.ToString("N0"));
+        }
+
+        static void printMoney(double dblMoney)
+        {
+            Console.WriteLine("money " + dblMoney.ToString("C"));
+        }
+
+        static void printNumbers()
+        {
+            //more information
+            //https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings
+
+            double dblNum = 3211524.34543;
+            Console.WriteLine("N0 = " + dblNum.ToString("N0"));
+            Console.WriteLine("N1 = " + dblNum.ToString("N1"));
+            Console.WriteLine("N2 = " + dblNum.ToString("N2"));
+            Console.WriteLine("E = " + dblNum.ToString("E"));
+            Console.WriteLine("P = " + dblNum.ToString("P"));
+            Console.WriteLine("P1 = " + dblNum.ToString("P1"));
+            Console.WriteLine("P2 = " + dblNum.ToString("P2"));
         }
     }
 }
