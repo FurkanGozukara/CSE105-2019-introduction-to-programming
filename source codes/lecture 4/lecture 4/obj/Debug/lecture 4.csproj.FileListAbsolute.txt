@@ -1,0 +1,7 @@
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 4\lecture 4\bin\Debug\lecture 4.exe.config
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 4\lecture 4\bin\Debug\lecture 4.exe
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 4\lecture 4\bin\Debug\lecture 4.pdb
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 4\lecture 4\obj\Debug\lecture 4.csprojAssemblyReference.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 4\lecture 4\obj\Debug\lecture 4.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 4\lecture 4\obj\Debug\lecture 4.exe
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 4\lecture 4\obj\Debug\lecture 4.pdb
