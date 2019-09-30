@@ -53,6 +53,55 @@ namespace lecture_4
             Console.WriteLine("the length of the second dimension is : " + threeDimensonArray.GetLength(1));
             Console.WriteLine("the length of the third dimension is : " + threeDimensonArray.GetLength(2));
 
+            int irK = 0, irM = 0, irI = 0;
+            int irDimension_0 = threeDimensonArray.GetLength(0);
+            int irDimension_1 = threeDimensonArray.GetLength(1);
+            int irDimension_2 = threeDimensonArray.GetLength(2);
+
+            irRow = 1;
+            for (; irI < irDimension_0; irI++)
+            {
+                for (; irK < irDimension_1; irK++)
+                {
+                    for (; irM < irDimension_2; irM++)
+                    {
+                        Console.WriteLine(irRow + "\t" + irI + " , " + irK + " , " + irM + " \t" + threeDimensonArray[irI, irK, irM]);
+                        irRow++;
+                    }
+                    irM = 0;
+                }
+                irK = 0;
+            }
+
+            Console.Clear();
+
+            for (int i = 2; i < 100; i = i + 5)
+            {
+                Console.WriteLine(i);
+                i = i + 7;
+            }
+
+            //compose an int array length of 100
+            //assign to the array numbers between 1-100 in a for loop
+            //print array to the screen
+
+            Console.Clear();
+
+            int irArraySize = 250;
+
+            int[] myArray100 = new int[irArraySize];
+
+            for (int i = 0; i < irArraySize; i++)
+            {
+                myArray100[i] = i + 1;
+            }
+
+            for (int i = 0; i < myArray100.GetLength(0); i++)
+            {
+                Console.WriteLine((i + 1) + " th element is " + myArray100[i]);
+            }
+
+
             Console.ReadLine();
         }
     }
