@@ -49,9 +49,12 @@ namespace lecture_4
 
             Console.Clear();
 
+
             Console.WriteLine("the length of the first dimension is : " + threeDimensonArray.GetLength(0));
             Console.WriteLine("the length of the second dimension is : " + threeDimensonArray.GetLength(1));
             Console.WriteLine("the length of the third dimension is : " + threeDimensonArray.GetLength(2));
+
+            Console.WriteLine("total length of  threeDimensonArray is : " + threeDimensonArray.Length);
 
             int irK = 0, irM = 0, irI = 0;
             int irDimension_0 = threeDimensonArray.GetLength(0);
@@ -101,6 +104,35 @@ namespace lecture_4
                 Console.WriteLine((i + 1) + " th element is " + myArray100[i]);
             }
 
+            Console.Clear();
+
+            foreach (var vrNumber in myArray100)
+            {
+                Console.WriteLine(vrNumber);
+            }
+
+            Console.Clear();
+
+            foreach (var vrNumber in threeDimensonArray)
+            {
+                Console.WriteLine(vrNumber);
+            }
+
+            Console.Clear();
+
+            int[] tempArray = new int[] { 5654, 653, 124, 6 };
+
+            foreach (var vrNumber in tempArray)
+            {
+                Console.WriteLine(vrNumber);
+            }
+
+            string[] myStringArray = new string[] { "okul", "ev", "office" };
+
+            foreach (var vrString in myStringArray)
+            {
+                Console.WriteLine(vrString);
+            }
 
             Console.ReadLine();
         }
