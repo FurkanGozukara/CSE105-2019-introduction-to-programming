@@ -1,0 +1,15 @@
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 intro to wpf\bin\Debug\lecture 5 intro to wpf.exe.config
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 intro to wpf\bin\Debug\lecture 5 intro to wpf.exe
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 intro to wpf\bin\Debug\lecture 5 intro to wpf.pdb
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 intro to wpf\obj\Debug\lecture 5 intro to wpf.csprojAssemblyReference.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 intro to wpf\obj\Debug\MainWindow.g.cs
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 intro to wpf\obj\Debug\App.g.cs
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 intro to wpf\obj\Debug\lecture 5 intro to wpf_MarkupCompile.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 intro to wpf\obj\Debug\lecture 5 intro to wpf_MarkupCompile.lref
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 intro to wpf\obj\Debug\MainWindow.baml
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 intro to wpf\obj\Debug\lecture 5 intro to wpf.g.resources
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 intro to wpf\obj\Debug\lecture_5_intro_to_wpf.Properties.Resources.resources
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 intro to wpf\obj\Debug\lecture 5 intro to wpf.csproj.GenerateResource.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 intro to wpf\obj\Debug\lecture 5 intro to wpf.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 intro to wpf\obj\Debug\lecture 5 intro to wpf.exe
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 intro to wpf\obj\Debug\lecture 5 intro to wpf.pdb

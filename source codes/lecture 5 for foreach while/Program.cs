@@ -33,15 +33,52 @@ namespace lecture_5_for_foreach_while
                 //Thread.Sleep(500);
             }
 
+            int irIndex = 0;
             do
-            {
-                int irIndex = 0;
+            {               
                 Console.WriteLine("do while loop: " + lstNumbers[irIndex]);
-                Thread.Sleep(500);
+                //Thread.Sleep(500);
                 irIndex++;
                 if (irIndex >= lstNumbers.Count)
                     break;
             } while (true);
+
+            Console.Clear();
+
+            irIndex = 0;
+            while (true)
+            {
+                Console.WriteLine("while loop: " + lstNumbers[irIndex]);
+               // Thread.Sleep(500);
+                irIndex++;
+                if (irIndex >= lstNumbers.Count)
+                    break;
+            }
+
+            Console.Clear();
+
+            irIndex = 0;
+            while (irIndex < lstNumbers.Count)
+            {
+                Console.WriteLine("while loop better: " + lstNumbers[irIndex]);
+               // Thread.Sleep(10);
+                irIndex++;
+            }
+
+            for (int i = 0; i < 1000; i++)
+            {
+                Console.WriteLine("for loop: " + i);
+                Thread.Sleep(500);
+                if (i > 111)
+                    break;
+            }
+
+            irIndex = 0;
+            while(irIndex<101)
+            {
+                Console.WriteLine(irIndex);
+                irIndex += 5;
+            }
 
             Console.ReadLine();
         }
