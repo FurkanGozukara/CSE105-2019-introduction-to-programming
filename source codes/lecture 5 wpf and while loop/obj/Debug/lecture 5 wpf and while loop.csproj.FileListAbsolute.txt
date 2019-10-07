@@ -1,0 +1,15 @@
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 wpf and while loop\bin\Debug\lecture 5 wpf and while loop.exe.config
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 wpf and while loop\bin\Debug\lecture 5 wpf and while loop.exe
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 wpf and while loop\bin\Debug\lecture 5 wpf and while loop.pdb
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 wpf and while loop\obj\Debug\lecture 5 wpf and while loop.csprojAssemblyReference.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 wpf and while loop\obj\Debug\MainWindow.g.cs
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 wpf and while loop\obj\Debug\App.g.cs
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 wpf and while loop\obj\Debug\lecture 5 wpf and while loop_MarkupCompile.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 wpf and while loop\obj\Debug\lecture 5 wpf and while loop_MarkupCompile.lref
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 wpf and while loop\obj\Debug\MainWindow.baml
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 wpf and while loop\obj\Debug\lecture 5 wpf and while loop.g.resources
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 wpf and while loop\obj\Debug\lecture_5_wpf_and_while_loop.Properties.Resources.resources
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 wpf and while loop\obj\Debug\lecture 5 wpf and while loop.csproj.GenerateResource.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 wpf and while loop\obj\Debug\lecture 5 wpf and while loop.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 wpf and while loop\obj\Debug\lecture 5 wpf and while loop.exe
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 wpf and while loop\obj\Debug\lecture 5 wpf and while loop.pdb

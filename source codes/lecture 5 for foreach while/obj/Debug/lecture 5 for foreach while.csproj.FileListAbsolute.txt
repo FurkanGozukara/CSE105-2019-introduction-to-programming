@@ -1,0 +1,7 @@
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 for foreach while\bin\Debug\lecture 5 for foreach while.exe.config
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 for foreach while\bin\Debug\lecture 5 for foreach while.exe
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 for foreach while\bin\Debug\lecture 5 for foreach while.pdb
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 for foreach while\obj\Debug\lecture 5 for foreach while.csprojAssemblyReference.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 for foreach while\obj\Debug\lecture 5 for foreach while.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 for foreach while\obj\Debug\lecture 5 for foreach while.exe
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 5 for foreach while\obj\Debug\lecture 5 for foreach while.pdb
