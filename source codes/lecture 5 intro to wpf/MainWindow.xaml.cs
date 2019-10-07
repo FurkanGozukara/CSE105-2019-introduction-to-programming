@@ -47,8 +47,8 @@ namespace lecture_5_intro_to_wpf
             else
                 lblIfElseResult.Content = $"generated random number is {irRandomNumber} and case 4";
 
-     
-       
+
+
             if (irRandomNumber > 70)
             {
                 lblIf.Content = $"generated random number is {irRandomNumber} and case 3";
@@ -65,7 +65,8 @@ namespace lecture_5_intro_to_wpf
             if (irRandomNumber > 70)
             {
                 lblIfElseTwo.Content = $"generated random number is {irRandomNumber} and case 3";
-            }else
+            }
+            else
             if (irRandomNumber > 50)
             {
                 lblIfElseTwo.Content = $"generated random number is {irRandomNumber} and case 2";
@@ -75,6 +76,30 @@ namespace lecture_5_intro_to_wpf
             {
                 lblIfElseTwo.Content = $"generated random number is {irRandomNumber} and case 1";
             }
+        }
+
+        private void sum_two_numbers(object sender, RoutedEventArgs e)
+        {
+            double dblNum1, dblNum2;
+
+            double.TryParse(txtinput1.Text, out dblNum1);//this handles errors
+            //Convert.ToDouble this does not handle the errors
+            double.TryParse(txtinput2.Text, out dblNum2);
+
+            txtoutput.Text = (dblNum1 + dblNum2).ToString("N3");
+
+            var sum = dblNum1 + dblNum2;
+
+            lblFullNumber.Content = sum;
+
+            var vrRounded = Math.Round(sum, 3);
+
+            lblRoundedNumber.Content = vrRounded;
+
+            var vrResult = $"{dblNum1} + {dblNum2} = {vrRounded}";
+
+            lstResults.Items.Add(vrResult);
+            lstResultsBottomUp.Items.Insert(0, vrResult);
         }
     }
 }
