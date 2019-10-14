@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -60,11 +61,15 @@ namespace lecture_6_more_wpf
             }
             catch (Exception E)
             {
-                MessageBox.Show("Error! You have entered an invalid number\n\n"
-                    +
-                    E.Message.ToString()
-                    +"\n\n"+
-                    E.StackTrace.ToString());
+                //MessageBox.Show("Error! You have entered an invalid number\n\n"
+                //    +
+                //    E.Message.ToString()
+                //    +"\n\n"+
+                //    E.StackTrace.ToString());
+
+                string srErrorMsg = string.Format("Error! You have entered an invalid number\n\n{0}\n\n{1}", E.Message.ToString(), E.StackTrace.ToString());
+
+                MessageBox.Show(srErrorMsg);
             }
             bool blResult = Int32.TryParse(txtNumber.Text, out irNumber);
             
@@ -72,6 +77,25 @@ namespace lecture_6_more_wpf
             {
                 MessageBox.Show("Error! You have entered an invalid number");
             }
+
+            switch (irNumber)
+            {
+                case 1:
+                    lblSelected.Content = "award winner 1";
+                    MessageBox.Show("award winner 1");
+                    break;
+                case 1000:
+                    MessageBox.Show("correct choice");
+                    break;
+                default:
+                    MessageBox.Show("no number is selected");
+                    break;
+            }
+        }
+
+        private void write_to_text_file(object sender, RoutedEventArgs e)
+        {
+            File.WriteAllText("text_box_content.txt", txtArticle.Text, Encoding.UTF8);
         }
     }
 }
