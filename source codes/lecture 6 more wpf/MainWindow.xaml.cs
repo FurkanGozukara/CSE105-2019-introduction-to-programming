@@ -48,5 +48,30 @@ namespace lecture_6_more_wpf
                     break;
             }
         }
+
+        private void test_switch_number(object sender, RoutedEventArgs e)
+        {
+            int irNumber = -1;
+
+            try
+            {
+                irNumber = Convert.ToInt32(txtNumber.Text);
+                irNumber = Int32.Parse(txtNumber.Text);
+            }
+            catch (Exception E)
+            {
+                MessageBox.Show("Error! You have entered an invalid number\n\n"
+                    +
+                    E.Message.ToString()
+                    +"\n\n"+
+                    E.StackTrace.ToString());
+            }
+            bool blResult = Int32.TryParse(txtNumber.Text, out irNumber);
+            
+            if(!blResult) // (blResult==False)
+            {
+                MessageBox.Show("Error! You have entered an invalid number");
+            }
+        }
     }
 }

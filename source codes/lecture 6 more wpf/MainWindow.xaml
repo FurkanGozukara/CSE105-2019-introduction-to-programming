@@ -17,6 +17,8 @@
         </ComboBox>
         <Button x:Name="printSelected" Content="print selected" HorizontalAlignment="Left" Margin="259,10,0,0" VerticalAlignment="Top" Width="179" Height="45" Click="print_selected"/>
         <Label Name="lblSelected" Content="label selected" HorizontalAlignment="Left" Margin="29,82,0,0" VerticalAlignment="Top" Width="726"/>
+        <TextBox x:Name="txtNumber" HorizontalAlignment="Left" Height="23" Margin="29,142,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="switch number" HorizontalAlignment="Left" Margin="196,132,0,0" VerticalAlignment="Top" Width="136" Height="38" Click="test_switch_number"/>
 
     </Grid>
 </Window>
