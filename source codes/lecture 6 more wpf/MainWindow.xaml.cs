@@ -72,8 +72,8 @@ namespace lecture_6_more_wpf
                 MessageBox.Show(srErrorMsg);
             }
             bool blResult = Int32.TryParse(txtNumber.Text, out irNumber);
-            
-            if(!blResult) // (blResult==False)
+
+            if (!blResult) // (blResult==False)
             {
                 MessageBox.Show("Error! You have entered an invalid number");
             }
@@ -96,6 +96,71 @@ namespace lecture_6_more_wpf
         private void write_to_text_file(object sender, RoutedEventArgs e)
         {
             File.WriteAllText("text_box_content.txt", txtArticle.Text, Encoding.UTF8);
+        }
+
+        private void load_from_text(object sender, RoutedEventArgs e)
+        {
+            if (!File.Exists("text_box_content.txt"))
+            {
+                MessageBox.Show("Error! No such file exists");
+                return;
+            }
+
+            txtArticle.Text = File.ReadAllText("text_box_content.txt");
+        }
+
+        private void append_to_text_file(object sender, RoutedEventArgs e)
+        {
+            File.AppendAllText("text_box_content.txt", txtArticle.Text, Encoding.UTF8);
+        }
+
+        private void BtnWriteLines_Click(object sender, RoutedEventArgs e)
+        {
+            List<string> lstLines = new List<string>();
+
+            for (int i = 0; i < 64; i++)
+            {
+                lstLines.Add("line " + i + " \t " + Math.Pow(2, i).ToString("N0"));
+            }
+
+            try
+            {
+                //this composes a new file
+                File.WriteAllLines("multi_line.txt", lstLines);
+            }
+            catch (ArgumentException)
+            {
+                //catch here argument exceptions and proceed according to that
+            }
+            catch (PathTooLongException)
+            {
+                //catch here path too long exceptions and proceed according to that
+            }
+
+            //this adds to existing file
+            File.AppendAllLines("multi_line.txt", lstLines);     
+        }
+
+        private void BtnStreamWrite_Click(object sender, RoutedEventArgs e)
+        {
+            StreamWriter swWrite = new StreamWriter("stream_write.txt", false, Encoding.UTF8);
+
+            //swWrite.AutoFlush = true;
+
+            Int64 ir = 0;
+
+            while(true)
+            {
+                swWrite.WriteLine("line " + ir);
+                //System.Threading.Thread.Sleep(1);
+                ir++;
+                if (ir > 100000)
+                    break;
+            }
+
+            swWrite.Flush();
+
+            swWrite.Close();
         }
     }
 }

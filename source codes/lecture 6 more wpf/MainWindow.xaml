@@ -21,7 +21,10 @@
         <Button Content="switch number" HorizontalAlignment="Left" Margin="196,132,0,0" VerticalAlignment="Top" Width="136" Height="38" Click="test_switch_number"/>
         <TextBox x:Name="txtArticle" HorizontalAlignment="Left" Height="171" Margin="29,229,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="319" AcceptsReturn="True"/>
         <Button x:Name="btnSave" Content="save to text file" HorizontalAlignment="Left" Margin="380,229,0,0" VerticalAlignment="Top" Width="150" Height="40" Click="write_to_text_file"/>
-        <Button x:Name="btn_load" Content="load from text file" HorizontalAlignment="Left" Margin="380,290,0,0" VerticalAlignment="Top" Width="150" Height="40"/>
+        <Button x:Name="btn_load" Content="load from text file" HorizontalAlignment="Left" Margin="380,290,0,0" VerticalAlignment="Top" Width="150" Height="40" Click="load_from_text"/>
+        <Button x:Name="btnAppend" Content="append file" HorizontalAlignment="Left" Margin="553,229,0,0" VerticalAlignment="Top" Width="96" Height="40" Click="append_to_text_file"/>
+        <Button x:Name="btnWriteLines" Content="write lines" HorizontalAlignment="Left" Margin="553,290,0,0" VerticalAlignment="Top" Width="96" Height="40" Click="BtnWriteLines_Click"/>
+        <Button x:Name="btnStreamWrite" Content="stream writer" HorizontalAlignment="Left" Margin="380,351,0,0" VerticalAlignment="Top" Width="150" Height="35" Click="BtnStreamWrite_Click"/>
 
     </Grid>
 </Window>
