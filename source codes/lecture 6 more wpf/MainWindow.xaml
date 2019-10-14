@@ -1,0 +1,22 @@
+﻿<Window x:Class="lecture_6_more_wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lecture_6_more_wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox Name="cmbBoxLessons" HorizontalAlignment="Left" Margin="29,21,0,0" VerticalAlignment="Top" Width="207" Foreground="#FFA62E2E" FontFamily="Verdana" FontSize="16">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="#FF795151" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <Button x:Name="printSelected" Content="print selected" HorizontalAlignment="Left" Margin="259,10,0,0" VerticalAlignment="Top" Width="179" Height="45" Click="print_selected"/>
+        <Label Name="lblSelected" Content="label selected" HorizontalAlignment="Left" Margin="29,82,0,0" VerticalAlignment="Top" Width="726"/>
+
+    </Grid>
+</Window>

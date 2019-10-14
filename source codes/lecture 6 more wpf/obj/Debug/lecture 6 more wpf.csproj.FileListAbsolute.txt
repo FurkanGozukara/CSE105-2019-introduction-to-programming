@@ -1,0 +1,15 @@
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 6 more wpf\bin\Debug\lecture 6 more wpf.exe.config
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 6 more wpf\bin\Debug\lecture 6 more wpf.exe
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 6 more wpf\bin\Debug\lecture 6 more wpf.pdb
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 6 more wpf\obj\Debug\lecture 6 more wpf.csprojAssemblyReference.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 6 more wpf\obj\Debug\MainWindow.g.cs
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 6 more wpf\obj\Debug\App.g.cs
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 6 more wpf\obj\Debug\lecture 6 more wpf_MarkupCompile.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 6 more wpf\obj\Debug\lecture 6 more wpf_MarkupCompile.lref
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 6 more wpf\obj\Debug\MainWindow.baml
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 6 more wpf\obj\Debug\lecture 6 more wpf.g.resources
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 6 more wpf\obj\Debug\lecture_6_more_wpf.Properties.Resources.resources
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 6 more wpf\obj\Debug\lecture 6 more wpf.csproj.GenerateResource.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 6 more wpf\obj\Debug\lecture 6 more wpf.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 6 more wpf\obj\Debug\lecture 6 more wpf.exe
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 6 more wpf\obj\Debug\lecture 6 more wpf.pdb
