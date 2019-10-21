@@ -9,6 +9,11 @@
     <Grid>
         <Button Name="btnWrite" Content="strea writer 1 million lines" HorizontalAlignment="Left" Margin="30,34,0,0" VerticalAlignment="Top" Width="169" Height="36" Click="BtnWrite_Click"/>
         <Button x:Name="btnStreamReader" Content="stream reader" HorizontalAlignment="Left" Margin="235,34,0,0" VerticalAlignment="Top" Width="146" Height="36" Click="BtnStreamReader_Click"/>
+        <RadioButton GroupName="genders" x:Name="rdMale" Content="Male" HorizontalAlignment="Left" Margin="30,102,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="genders" x:Name="rdFemale" Content="Female" HorizontalAlignment="Left" Margin="101,102,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.389,0.528"/>
+        <RadioButton GroupName="language" x:Name="rdDoesntKnowEng" Content="Doesnt know English" HorizontalAlignment="Left" Margin="30,141,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="language" x:Name="rdKnowENG" Content="Knows English" HorizontalAlignment="Left" Margin="192,141,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="checkRadioButtons" Content="check Radio Buttons" HorizontalAlignment="Left" Margin="324,97,0,0" VerticalAlignment="Top" Width="146" Height="59" Click="CheckRadioButtons_Click"/>
 
     </Grid>
 </Window>

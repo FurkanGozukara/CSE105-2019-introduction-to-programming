@@ -42,7 +42,7 @@ namespace lecture_7
         {
             StreamReader swRead = new StreamReader("1million.txt");
             Int64 irBigTotal = 0;
-            while(true)
+            while (true)
             {
                 var vrLine = swRead.ReadLine();
                 if (vrLine == null)
@@ -55,6 +55,35 @@ namespace lecture_7
             }
 
             MessageBox.Show(irBigTotal.ToString("N0"));
+        }
+
+        private void CheckRadioButtons_Click(object sender, RoutedEventArgs e)
+        {
+            //make this a way that it only shows in 1 message box the selections
+            //you can use List
+
+            if (rdMale.IsChecked == true)
+                MessageBox.Show("Gender is Male");
+            if (rdFemale.IsChecked == true)
+                MessageBox.Show("Gender is Female");
+            if (rdDoesntKnowEng.IsChecked == true)
+                MessageBox.Show("Doesn't know English");
+            if (rdKnowENG.IsChecked == true)
+                MessageBox.Show("Knows English");
+
+            if (rdMale.IsChecked == false &&
+                rdFemale.IsChecked == false &&
+                rdDoesntKnowEng.IsChecked == false &&
+                rdKnowENG.IsChecked == false)
+                MessageBox.Show("You did not make any selection");
+
+            if (rdMale.IsChecked == true |
+    rdFemale.IsChecked == true |
+    rdDoesntKnowEng.IsChecked == true |
+    rdKnowENG.IsChecked == true) { }
+            else
+                MessageBox.Show("You did not make any selection");
+
         }
     }
 }
