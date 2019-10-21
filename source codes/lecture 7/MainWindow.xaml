@@ -14,6 +14,10 @@
         <RadioButton GroupName="language" x:Name="rdDoesntKnowEng" Content="Doesnt know English" HorizontalAlignment="Left" Margin="30,141,0,0" VerticalAlignment="Top"/>
         <RadioButton GroupName="language" x:Name="rdKnowENG" Content="Knows English" HorizontalAlignment="Left" Margin="192,141,0,0" VerticalAlignment="Top"/>
         <Button x:Name="checkRadioButtons" Content="check Radio Buttons" HorizontalAlignment="Left" Margin="324,97,0,0" VerticalAlignment="Top" Width="146" Height="59" Click="CheckRadioButtons_Click"/>
+        <Button Content="string join examples" Name="btnStringJoin" HorizontalAlignment="Left" Margin="30,252,0,0" VerticalAlignment="Top" Width="148" Height="46" Click="BtnStringJoin_Click"/>
+        <CheckBox Name="chkCruse" Content="Cruse Control" HorizontalAlignment="Left" Margin="30,204,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkAuto" Content="Auto Gear" HorizontalAlignment="Left" Margin="144,204,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkSunRoof" Content="Sun Roof" HorizontalAlignment="Left" Margin="235,204,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

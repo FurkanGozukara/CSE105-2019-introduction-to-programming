@@ -59,17 +59,30 @@ namespace lecture_7
 
         private void CheckRadioButtons_Click(object sender, RoutedEventArgs e)
         {
+            //if (rdMale.IsChecked == true)
+            //    MessageBox.Show("Gender is Male");
+            //if (rdFemale.IsChecked == true)
+            //    MessageBox.Show("Gender is Female");
+            //if (rdDoesntKnowEng.IsChecked == true)
+            //    MessageBox.Show("Doesn't know English");
+            //if (rdKnowENG.IsChecked == true)
+            //    MessageBox.Show("Knows English");
+
             //make this a way that it only shows in 1 message box the selections
             //you can use List
 
+            List<string> lstResults = new List<string>();
+
             if (rdMale.IsChecked == true)
-                MessageBox.Show("Gender is Male");
+                lstResults.Add("Gender is Male");
             if (rdFemale.IsChecked == true)
-                MessageBox.Show("Gender is Female");
+                lstResults.Add("Gender is Female");
             if (rdDoesntKnowEng.IsChecked == true)
-                MessageBox.Show("Doesn't know English");
+                lstResults.Add("Doesn't know English");
             if (rdKnowENG.IsChecked == true)
-                MessageBox.Show("Knows English");
+                lstResults.Add("Knows English");
+
+            MessageBox.Show(string.Join("\n\n", lstResults));
 
             if (rdMale.IsChecked == false &&
                 rdFemale.IsChecked == false &&
@@ -84,6 +97,51 @@ namespace lecture_7
             else
                 MessageBox.Show("You did not make any selection");
 
+        }
+
+        private void BtnStringJoin_Click(object sender, RoutedEventArgs e)
+        {
+            List<CheckBox> lstCheckBoxes = new List<CheckBox>();
+            lstCheckBoxes.Add(chkAuto);
+            lstCheckBoxes.Add(chkCruse);
+            lstCheckBoxes.Add(chkSunRoof);
+
+            List<string> lstSelectedCheckBoxes = new List<string>();
+
+            foreach (CheckBox vrCheckBox in lstCheckBoxes)
+            {
+                if (vrCheckBox.IsChecked == true)
+                {
+                    lstSelectedCheckBoxes.Add(vrCheckBox.Content.ToString());
+                }
+            }
+
+            //write same above loop with for and while
+
+            for (int i = 0; i < lstCheckBoxes.Count; i++)
+            {
+                if (lstCheckBoxes[i].IsChecked == true)
+                {
+                    lstSelectedCheckBoxes.Add(lstCheckBoxes[i].Content.ToString());
+                }
+            }
+
+            int irIndex = 0;
+            while (true)
+            {
+                if (lstCheckBoxes[irIndex].IsChecked == true)
+                {
+                    lstSelectedCheckBoxes.Add(lstCheckBoxes[irIndex].Content.ToString());
+                }
+                irIndex++;
+                if (irIndex == lstCheckBoxes.Count)
+                    break;
+            }
+            //this is next semesters feature linQ
+            lstSelectedCheckBoxes = lstSelectedCheckBoxes.Distinct().ToList();
+
+            string srMsg = "Checked Check Boxes : \t" + string.Join("\n", lstSelectedCheckBoxes);
+            MessageBox.Show(srMsg);
         }
     }
 }
