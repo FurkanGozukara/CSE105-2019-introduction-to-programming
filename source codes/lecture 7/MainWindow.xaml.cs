@@ -49,6 +49,7 @@ namespace lecture_7
                     break;
 
                 irBigTotal += Convert.ToInt64(vrLine);
+
                 //irBigTotal = irBigTotal + Convert.ToInt64(vrLine); same as above
                 //add read lines to irBigTotal variable
             }
