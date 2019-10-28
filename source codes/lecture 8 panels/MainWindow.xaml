@@ -21,6 +21,12 @@
                     <CheckBox x:Name="chkReverseSort" Content="Reverse Sort Enabled" HorizontalAlignment="Left" Margin="409,120,0,0" VerticalAlignment="Top" Width="172"/>
                 </Grid>
             </TabItem>
+            <TabItem x:Name="tab3" Header="Random Write To File">
+                <Grid Background="#FFE5E5E5">
+                    <Button x:Name="btnRandomWrite" Content="Random Write" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="112" Height="50" Click="BtnRandomWrite_Click"/>
+                    <ListBox x:Name="lstBoxRandomItems" HorizontalAlignment="Left" Height="286" Margin="161,10,0,0" VerticalAlignment="Top" Width="314"/>
+                </Grid>
+            </TabItem>
         </TabControl>
 
     </Grid>
