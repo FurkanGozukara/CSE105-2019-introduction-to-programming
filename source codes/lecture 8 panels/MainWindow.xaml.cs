@@ -47,9 +47,15 @@ namespace lecture_8_panels
             swWrite.WriteLine("============");
             swWrite.WriteLine();
             swWrite.Flush();
+            fcReadFromFile("numbers.txt");
         }
 
         private void BtnRead_Click(object sender, RoutedEventArgs e)
+        {
+            fcReadFromFile("numbers.txt");
+        }
+
+        private void fcReadFromFile(string srFileName)
         {
             listBoxItems.Items.Clear();//clears the items in listbox
             List<string> lstReadLines = new List<string>();
@@ -58,7 +64,14 @@ namespace lecture_8_panels
 
             //this method allow us to read locked file
             //the numbers.txt is locked until the streamwriter is closed which is opened in write button
-            using (FileStream fileStream = new FileStream("numbers.txt",
+
+            if (!File.Exists(srFileName))
+            {
+                MessageBox.Show("First compose the file by writing");
+                return;
+            }
+
+            using (FileStream fileStream = new FileStream(srFileName,
                 FileMode.Open,
                 FileAccess.Read,
               FileShare.ReadWrite))
@@ -81,7 +94,6 @@ namespace lecture_8_panels
             {
                 listBoxItems.Items.Add(item);
             }
-
         }
     }
 }
