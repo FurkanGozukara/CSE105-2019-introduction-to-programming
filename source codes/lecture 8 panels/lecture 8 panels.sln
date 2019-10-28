@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lecture 8 panels", "lecture 8 panels.csproj", "{A0B8744C-B090-4E1F-A34A-C74FC57D5E6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0B8744C-B090-4E1F-A34A-C74FC57D5E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B8744C-B090-4E1F-A34A-C74FC57D5E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B8744C-B090-4E1F-A34A-C74FC57D5E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B8744C-B090-4E1F-A34A-C74FC57D5E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {760DF6BC-A30C-483E-9286-CA1ACD9B7850}
+	EndGlobalSection
+EndGlobal

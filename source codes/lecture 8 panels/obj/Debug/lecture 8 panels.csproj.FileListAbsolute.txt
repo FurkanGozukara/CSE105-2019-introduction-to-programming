@@ -1,0 +1,15 @@
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 8 panels\bin\Debug\lecture 8 panels.exe.config
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 8 panels\bin\Debug\lecture 8 panels.exe
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 8 panels\bin\Debug\lecture 8 panels.pdb
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 8 panels\obj\Debug\lecture 8 panels.csprojAssemblyReference.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 8 panels\obj\Debug\MainWindow.g.cs
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 8 panels\obj\Debug\App.g.cs
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 8 panels\obj\Debug\lecture 8 panels_MarkupCompile.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 8 panels\obj\Debug\lecture 8 panels_MarkupCompile.lref
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 8 panels\obj\Debug\MainWindow.baml
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 8 panels\obj\Debug\lecture 8 panels.g.resources
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 8 panels\obj\Debug\lecture_8_panels.Properties.Resources.resources
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 8 panels\obj\Debug\lecture 8 panels.csproj.GenerateResource.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 8 panels\obj\Debug\lecture 8 panels.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 8 panels\obj\Debug\lecture 8 panels.exe
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 8 panels\obj\Debug\lecture 8 panels.pdb
