@@ -51,14 +51,15 @@ namespace lecture_8_panels
 
         private void BtnRead_Click(object sender, RoutedEventArgs e)
         {
+            listBoxItems.Items.Clear();//clears the items in listbox
             List<string> lstReadLines = new List<string>();
 
             //the using means that when exited from the using scope, opened streams are automatically closed > https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/using-statement
 
             //this method allow us to read locked file
             //the numbers.txt is locked until the streamwriter is closed which is opened in write button
-            using (FileStream fileStream = new FileStream("numbers.txt", 
-                FileMode.Open, 
+            using (FileStream fileStream = new FileStream("numbers.txt",
+                FileMode.Open,
                 FileAccess.Read,
               FileShare.ReadWrite))
             {
@@ -74,13 +75,12 @@ namespace lecture_8_panels
                 }
                 //streamReader. this does not exists anymore after exited from scope of using
             }
-
-            lstReadLines.Reverse();//reverse sorts the list
+            if (chkReverseSort.IsChecked == true)
+                lstReadLines.Reverse();//reverse sorts the list
             foreach (var item in lstReadLines)
             {
                 listBoxItems.Items.Add(item);
             }
-     
 
         }
     }
