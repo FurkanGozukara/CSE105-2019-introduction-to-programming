@@ -104,5 +104,16 @@ namespace lecture_8_panels
             }
             lstBoxRandomItems.Items.Insert(0,"items added");
         }
+
+        private void NonStaticBtnRandomWrite_Click(object sender, RoutedEventArgs e)
+        {
+            nonStaticRandomNumberList mynonStaticRandom = new nonStaticRandomNumberList();
+             
+            foreach (var item in mynonStaticRandom.returnNumbers())
+            {
+                lstBoxRandomItems.Items.Insert(0, item);
+            }
+            lstBoxRandomItems.Items.Insert(0, "items added");
+        }
     }
 }
