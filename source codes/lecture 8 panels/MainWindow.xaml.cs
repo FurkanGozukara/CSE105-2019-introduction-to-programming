@@ -48,5 +48,40 @@ namespace lecture_8_panels
             swWrite.WriteLine();
             swWrite.Flush();
         }
+
+        private void BtnRead_Click(object sender, RoutedEventArgs e)
+        {
+            List<string> lstReadLines = new List<string>();
+
+            //the using means that when exited from the using scope, opened streams are automatically closed > https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/using-statement
+
+            //this method allow us to read locked file
+            //the numbers.txt is locked until the streamwriter is closed which is opened in write button
+            using (FileStream fileStream = new FileStream("numbers.txt", 
+                FileMode.Open, 
+                FileAccess.Read,
+              FileShare.ReadWrite))
+            {
+                using (StreamReader streamReader = new StreamReader(fileStream))
+                {
+                    while (true)
+                    {
+                        var vrLine = streamReader.ReadLine();
+                        if (vrLine == null)
+                            break;
+                        lstReadLines.Add(vrLine);
+                    }
+                }
+                //streamReader. this does not exists anymore after exited from scope of using
+            }
+
+            lstReadLines.Reverse();//reverse sorts the list
+            foreach (var item in lstReadLines)
+            {
+                listBoxItems.Items.Add(item);
+            }
+     
+
+        }
     }
 }

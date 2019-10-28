@@ -17,7 +17,7 @@
             <TabItem x:Name="tab2" Header="Read From File">
                 <Grid Background="#FFE5E5E5">
                     <ListBox HorizontalAlignment="Left" Height="284" Margin="10,22,0,0" VerticalAlignment="Top" Width="225"/>
-                    <Button x:Name="btnRead" Content="Read From File" HorizontalAlignment="Left" Margin="269,22,0,0" VerticalAlignment="Top" Width="122" Height="75"/>
+                    <Button x:Name="btnRead" Content="Read From File" HorizontalAlignment="Left" Margin="269,22,0,0" VerticalAlignment="Top" Width="122" Height="75" Click="BtnRead_Click"/>
                 </Grid>
             </TabItem>
         </TabControl>
