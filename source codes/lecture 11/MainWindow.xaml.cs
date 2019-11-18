@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,6 +22,7 @@ namespace lecture_11
     public partial class MainWindow : Window
     {
         private static string srUsernameDefault = "please enter a username";
+        private static char crUsernamePasswordSeperator = ';';
 
         public MainWindow()
         {
@@ -77,6 +79,23 @@ namespace lecture_11
                 MessageBox.Show($"Your username contains invalid character ({srInvalidChar}) \t Please fix your username!");
                 return;
             }
+            if(txtUserName.Text==srUsernameDefault)
+            {
+                //dont forget this
+            }
+
+            string srPw1 = pwBox1_Copy.Password.ToString();
+            string srPw2 = pwBox1_Copy1.Password.ToString();
+
+            if(srPw1!=srPw2)
+            {
+                MessageBox.Show($"your password is not matching. please re-enter");
+                return;
+            }
+
+            string srHashedPassword = encrtpy.ComputeSha256Hash(srPw1);
+
+            File.AppendAllText("users.txt", srSelectedUserName + crUsernamePasswordSeperator + srHashedPassword);
         }
 
         private void BtnCheckIndex_Click(object sender, RoutedEventArgs e)
@@ -86,6 +105,11 @@ namespace lecture_11
                 MessageBox.Show("text box 1 does not contain text box 2 text");
             else
                 MessageBox.Show($"the index of text box 2 in text box 1 is {irIndex}");
+        }
+
+        private void BtnLogin_Click(object sender, RoutedEventArgs e)
+        {
+            //write necessary coding and show whether correct username and password entered or not
         }
     }
 }
