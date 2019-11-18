@@ -15,11 +15,17 @@
                     <PasswordBox x:Name="pwBox1_Copy1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="16,133,0,113"  Width="174" Height="30" VerticalContentAlignment="Center"/>
                     <Label Content="please enter a password" HorizontalAlignment="Left" Margin="16,51,0,0" VerticalAlignment="Top"/>
                     <Label Content="please enter re-enter your password" HorizontalAlignment="Left" Margin="16,107,0,0" VerticalAlignment="Top"/>
-                    <Button x:Name="btnRegister" Content="Register" HorizontalAlignment="Left" Margin="234,19,0,0" VerticalAlignment="Top" Width="100" Height="36" Click="BtnRegister_Click"/>
+                    <Button x:Name="btnRegister" Content="Register" HorizontalAlignment="Left" Margin="234,19,0,0" VerticalAlignment="Top" Width="100" Height="36" Click="BtnRegister_Click" IsDefault="True"/>
                 </Grid>
             </TabItem>
             <TabItem Name="tbLogin" Header="Login" >
-                <Grid Background="#FFE5E5E5"/>
+                <Grid Background="#FFE5E5E5">
+                    <TextBox x:Name="txtLogin_UserName" HorizontalAlignment="Left" Height="23" Margin="101,24,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                    <Label Content="username" HorizontalAlignment="Left" Margin="34,20,0,0" VerticalAlignment="Top"/>
+                    <Label Content="password" HorizontalAlignment="Left" Margin="34,59,0,0" VerticalAlignment="Top"/>
+                    <PasswordBox x:Name="pwLogin_pass" HorizontalAlignment="Left" Margin="101,67,0,0" VerticalAlignment="Top" Width="120"/>
+                    <Button x:Name="btnLogin" Content="login" HorizontalAlignment="Left" Margin="242,44,0,0" VerticalAlignment="Top" Width="75" Click="BtnLogin_Click" IsDefault="True"/>
+                </Grid>
             </TabItem>
             <TabItem Name="tbIndexOf" Header="Check Index Of" >
                 <Grid Background="#FFE5E5E5">

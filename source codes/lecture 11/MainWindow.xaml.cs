@@ -22,7 +22,6 @@ namespace lecture_11
     public partial class MainWindow : Window
     {
         private static string srUsernameDefault = "please enter a username";
-        private static char crUsernamePasswordSeperator = ';';
 
         public MainWindow()
         {
@@ -93,9 +92,15 @@ namespace lecture_11
                 return;
             }
 
+            if(csPublicFunctions.checkUserExists(srSelectedUserName))
+            {
+                MessageBox.Show($"this username already exists. please select another username!");
+                return;
+            }
+
             string srHashedPassword = encrtpy.ComputeSha256Hash(srPw1);
 
-            File.AppendAllText("users.txt", srSelectedUserName + crUsernamePasswordSeperator + srHashedPassword);
+            File.AppendAllText("users.txt", srSelectedUserName + csPublicFunctions.crUsernamePasswordSeperator + srHashedPassword+"\r\n");
         }
 
         private void BtnCheckIndex_Click(object sender, RoutedEventArgs e)
@@ -109,7 +114,12 @@ namespace lecture_11
 
         private void BtnLogin_Click(object sender, RoutedEventArgs e)
         {
-            //write necessary coding and show whether correct username and password entered or not
+          if(csPublicFunctions.checkPasswordTrue(txtLogin_UserName.Text, pwLogin_pass.Password.ToString()))
+            {
+                MessageBox.Show("correct username and password");
+            }
+          else
+                MessageBox.Show("incorrect username and password");
         }
     }
 }
