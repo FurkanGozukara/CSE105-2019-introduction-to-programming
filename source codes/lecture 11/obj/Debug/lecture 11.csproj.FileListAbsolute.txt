@@ -1,0 +1,15 @@
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 11\bin\Debug\lecture 11.exe.config
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 11\bin\Debug\lecture 11.exe
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 11\bin\Debug\lecture 11.pdb
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 11\obj\Debug\lecture 11.csprojAssemblyReference.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 11\obj\Debug\MainWindow.g.cs
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 11\obj\Debug\App.g.cs
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 11\obj\Debug\lecture 11_MarkupCompile.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 11\obj\Debug\lecture 11_MarkupCompile.lref
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 11\obj\Debug\MainWindow.baml
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 11\obj\Debug\lecture 11.g.resources
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 11\obj\Debug\lecture_11.Properties.Resources.resources
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 11\obj\Debug\lecture 11.csproj.GenerateResource.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 11\obj\Debug\lecture 11.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 11\obj\Debug\lecture 11.exe
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 11\obj\Debug\lecture 11.pdb

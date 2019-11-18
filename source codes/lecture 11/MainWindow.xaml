@@ -1,0 +1,34 @@
+﻿<Window x:Class="lecture_11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lecture_11"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl HorizontalAlignment="Left" Height="305" Margin="37,23,0,0" VerticalAlignment="Top" Width="593">
+            <TabItem Name="tbRegister" Header="Register">
+                <Grid Background="#FFE5E5E5">
+                    <TextBox x:Name="txtUserName" HorizontalAlignment="Left" VerticalAlignment="Center" Height="30" Margin="16,19,0,227" TextWrapping="Wrap" Text="please enter username"  Width="174" GotFocus="TxtUserName_GotFocus" LostFocus="TxtUserName_LostFocus" VerticalContentAlignment="Center"/>
+                    <PasswordBox x:Name="pwBox1_Copy" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="16,77,0,169"  Width="174" Height="30" VerticalContentAlignment="Center"/>
+                    <PasswordBox x:Name="pwBox1_Copy1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="16,133,0,113"  Width="174" Height="30" VerticalContentAlignment="Center"/>
+                    <Label Content="please enter a password" HorizontalAlignment="Left" Margin="16,51,0,0" VerticalAlignment="Top"/>
+                    <Label Content="please enter re-enter your password" HorizontalAlignment="Left" Margin="16,107,0,0" VerticalAlignment="Top"/>
+                    <Button x:Name="btnRegister" Content="Register" HorizontalAlignment="Left" Margin="234,19,0,0" VerticalAlignment="Top" Width="100" Height="36" Click="BtnRegister_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Name="tbLogin" Header="Login" >
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Name="tbIndexOf" Header="Check Index Of" >
+                <Grid Background="#FFE5E5E5">
+                    <TextBox x:Name="txtCheck1" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="text1" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="txtCheck2" HorizontalAlignment="Left" Height="23" Margin="145,10,0,0" TextWrapping="Wrap" Text="check index" VerticalAlignment="Top" Width="120"/>
+                    <Button Name="btnCheckIndex" Content="check index of" HorizontalAlignment="Left" Margin="282,10,0,0" VerticalAlignment="Top" Width="125" Click="BtnCheckIndex_Click"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
