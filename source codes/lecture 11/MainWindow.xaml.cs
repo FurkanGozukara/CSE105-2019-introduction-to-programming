@@ -54,11 +54,28 @@ namespace lecture_11
                 lstChars.Add(vrChar);
             }
 
-
-
             if(srSelectedUserName.IndexOfAny(System.IO.Path.GetInvalidFileNameChars()) >= 0)
             {
+                //MessageBox.Show("there is an invalid character in your username. check again!");
+                //return;
+            }
 
+            //this below equals to what does above code do
+            bool blInvalidCharExists = false;
+            string srInvalidChar = "";
+            foreach (var vrChar in System.IO.Path.GetInvalidFileNameChars())
+            {
+                if (srSelectedUserName.IndexOf(vrChar) != -1)
+                {
+                    blInvalidCharExists = true;
+                    srInvalidChar = vrChar.ToString();
+                    break;
+                }
+            }
+            if (blInvalidCharExists)
+            {
+                MessageBox.Show($"Your username contains invalid character ({srInvalidChar}) \t Please fix your username!");
+                return;
             }
         }
 
