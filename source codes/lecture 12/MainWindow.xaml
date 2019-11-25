@@ -5,12 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:lecture_12"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" KeyDown="Window_KeyDown">
     <Grid>
         <TextBox x:Name="txtMath" HorizontalAlignment="Left" Height="80" Margin="24,25,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="484"/>
         <Button x:Name="btnCalculate" Content="calculate" HorizontalAlignment="Left" Margin="534,25,0,0" VerticalAlignment="Top" Width="90" Height="66" Click="BtnCalculate_Click"/>
-        <ComboBox Name="cbmBoxUsers" HorizontalAlignment="Left" Margin="651,25,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox Name="cbmBoxUsers" HorizontalAlignment="Left" Margin="651,25,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="CbmBoxUsers_SelectionChanged"/>
         <ListBox x:Name="lstBoxUserLogs" HorizontalAlignment="Left" Height="122" Margin="24,141,0,0" VerticalAlignment="Top" Width="484"/>
+        <Button Name="stringcomparison" Content="string comparison" HorizontalAlignment="Left" Margin="577,353,0,0" VerticalAlignment="Top" Width="122" Height="34" Click="Stringcomparison_Click"/>
+        <Button x:Name="btnPlus" Content="+" HorizontalAlignment="Left" Margin="651,86,0,0" VerticalAlignment="Top" Width="81" Height="47"/>
 
     </Grid>
 </Window>
