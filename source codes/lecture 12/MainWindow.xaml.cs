@@ -126,6 +126,15 @@ namespace lecture_12
             }
             else
                 MessageBox.Show("this user does not exists");
+
+            string srUsers = "";
+
+            foreach (var vrPerUser in csPublicFunctions.dicUserValues)
+            {
+                srUsers += vrPerUser.Key+";"+vrPerUser.Value.srUserPassword+string.Join("\n",vrPerUser.Value.lstUserLogs) + "\t";
+            }
+
+            MessageBox.Show(srUsers);
         }
     }
 }
