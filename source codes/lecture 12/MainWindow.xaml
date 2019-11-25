@@ -14,6 +14,7 @@
         <Button Name="stringcomparison" Content="string comparison" HorizontalAlignment="Left" Margin="577,353,0,0" VerticalAlignment="Top" Width="122" Height="34" Click="Stringcomparison_Click"/>
         <Button x:Name="btnPlus" Content="+" HorizontalAlignment="Left" Margin="651,86,0,0" VerticalAlignment="Top" Width="81" Height="47"/>
         <Button x:Name="btnShowPassword" Content="show selected user password" HorizontalAlignment="Left" Margin="592,235,0,0" VerticalAlignment="Top" Width="173" Height="39" Click="BtnShowPassword_Click"/>
+        <Button Content="test class" Name="btnTEstClass" HorizontalAlignment="Left" Margin="77,325,0,0" VerticalAlignment="Top" Width="139" Height="62" Click="BtnTEstClass_Click"/>
 
     </Grid>
 </Window>

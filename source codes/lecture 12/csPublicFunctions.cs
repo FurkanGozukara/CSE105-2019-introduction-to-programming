@@ -10,8 +10,8 @@ namespace lecture_12
   public static  class csPublicFunctions
     {
         public static Dictionary<string, userVals> dicUserValues = new Dictionary<string, userVals>();
-        
-        static csPublicFunctions()
+
+            static csPublicFunctions()
         {
             foreach (var vrLine in File.ReadLines("users.txt"))
             {

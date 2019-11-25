@@ -25,6 +25,7 @@ namespace lecture_12
         public MainWindow()
         {
             InitializeComponent();
+            csPublicFunctions.dicUserValues.Add("3123", new csPublicFunctions.userVals());
             cbmBoxUsers.Items.Add("ahmet");
             cbmBoxUsers.Items.Add("mehmet");
             cbmBoxUsers.Items.Add("ali");
@@ -135,6 +136,15 @@ namespace lecture_12
             }
 
             MessageBox.Show(srUsers);
+        }
+
+        private void BtnTEstClass_Click(object sender, RoutedEventArgs e)
+        {
+            StudentList gg1 = new StudentList();
+            MessageBox.Show(string.Join(":", gg1.lstStudents));
+
+            StudentList gg2 = new StudentList(new List<string> { "student 1","student 2"});
+            MessageBox.Show(string.Join(":", gg2.lstStudents));
         }
     }
 }
