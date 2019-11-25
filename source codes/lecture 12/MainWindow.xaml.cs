@@ -31,7 +31,11 @@ namespace lecture_12
             cbmBoxUsers.SelectedIndex = 0;
             GlobalVariables.srLoggedUserName = cbmBoxUsers.SelectedValue.ToString();
             btnPlus.ToolTip = "This writes + to the input box";
+
+
         }
+
+
 
         //write calculated result to the selected users file
         //show calculated results in the listbox with reverse order
@@ -110,6 +114,18 @@ namespace lecture_12
             {
                 BtnCalculate_Click(this, null);
             }
+        }
+
+        private void BtnShowPassword_Click(object sender, RoutedEventArgs e)
+        {
+            var vrSelectedUser = cbmBoxUsers.SelectedValue.ToString();
+
+            if (csPublicFunctions.dicUserValues.ContainsKey(vrSelectedUser))
+            {
+                MessageBox.Show(csPublicFunctions.dicUserValues[vrSelectedUser].srUserPassword);
+            }
+            else
+                MessageBox.Show("this user does not exists");
         }
     }
 }

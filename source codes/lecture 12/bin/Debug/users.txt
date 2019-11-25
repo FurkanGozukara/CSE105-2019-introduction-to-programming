@@ -1,0 +1,3 @@
+ahmet;gg1
+mehmet;gg2
+ali;gg3
