@@ -1,0 +1,17 @@
+C:\Users\Furkan Gözükara\source\repos\lecture 12\bin\Debug\lecture 12.exe.config
+C:\Users\Furkan Gözükara\source\repos\lecture 12\bin\Debug\lecture 12.exe
+C:\Users\Furkan Gözükara\source\repos\lecture 12\bin\Debug\lecture 12.pdb
+C:\Users\Furkan Gözükara\source\repos\lecture 12\bin\Debug\NCalc.dll
+C:\Users\Furkan Gözükara\source\repos\lecture 12\obj\Debug\lecture 12.csprojAssemblyReference.cache
+C:\Users\Furkan Gözükara\source\repos\lecture 12\obj\Debug\MainWindow.g.cs
+C:\Users\Furkan Gözükara\source\repos\lecture 12\obj\Debug\App.g.cs
+C:\Users\Furkan Gözükara\source\repos\lecture 12\obj\Debug\lecture 12_MarkupCompile.cache
+C:\Users\Furkan Gözükara\source\repos\lecture 12\obj\Debug\lecture 12_MarkupCompile.lref
+C:\Users\Furkan Gözükara\source\repos\lecture 12\obj\Debug\MainWindow.baml
+C:\Users\Furkan Gözükara\source\repos\lecture 12\obj\Debug\lecture 12.g.resources
+C:\Users\Furkan Gözükara\source\repos\lecture 12\obj\Debug\lecture_12.Properties.Resources.resources
+C:\Users\Furkan Gözükara\source\repos\lecture 12\obj\Debug\lecture 12.csproj.GenerateResource.cache
+C:\Users\Furkan Gözükara\source\repos\lecture 12\obj\Debug\lecture 12.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Gözükara\source\repos\lecture 12\obj\Debug\lecture 12.csproj.CopyComplete
+C:\Users\Furkan Gözükara\source\repos\lecture 12\obj\Debug\lecture 12.exe
+C:\Users\Furkan Gözükara\source\repos\lecture 12\obj\Debug\lecture 12.pdb
