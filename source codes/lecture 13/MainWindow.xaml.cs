@@ -25,6 +25,7 @@ namespace lecture_13
         public MainWindow()
         {
             InitializeComponent();
+
         }
 
         private void BtnGenerateUser_Click(object sender, RoutedEventArgs e)
@@ -73,10 +74,46 @@ namespace lecture_13
             MessageBox.Show("user check result: " + blRest + " \t in " + swTimer.ElapsedMilliseconds + " ms");
         }
 
+        Dictionary<string, string> dicUsers;
         private bool checkUserAndPw(string srUserName, string srPassword)
         {
-            //this will be written by you
-            return false;
+            if(dicUsers==null)
+            {
+                dicUsers = new Dictionary<string, string>();
+                foreach (var item in File.ReadLines("user.txt"))
+                {
+                    if(!dicUsers.ContainsKey(item.Split(';').First()))
+                    {    //first one username second one password
+                        dicUsers.Add(item.Split(';')[0], item.Split(';')[1]);//first one key , second value
+                    }
+                }
+                lblUserCount.Content = "user count : " + dicUsers.Count;
+            }
+
+            if (dicUsers.ContainsKey(srUserName))
+            {    //here we are getting password of that particular username and comparing
+                if (dicUsers[srUserName] == srPassword)//this is comparing value of that particular key
+                {
+                    return true;
+                }
+                return false;
+            }
+            else
+                return false;
+        }
+
+        private void BtnCheck_Click(object sender, RoutedEventArgs e)
+        {
+            Stopwatch swTimer = new Stopwatch();
+            swTimer.Start();
+            Random rann = new Random();
+            for (int i = 1; i < 100; i++)
+            {
+                bool blRest = checkUserAndPw("user"+rann.Next(), "password"+rann.Next());
+            }
+            swTimer.Stop();
+
+            MessageBox.Show("100 user check done in : " + swTimer.ElapsedMilliseconds);
         }
     }
 }

@@ -1,0 +1,19 @@
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 13\bin\x64\Debug\source_files\user_list.txt
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 13\bin\x64\Debug\lecture 13.exe.config
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 13\bin\x64\Debug\lecture 13.exe
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 13\bin\x64\Debug\lecture 13.pdb
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 13\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 13\bin\x64\Debug\Newtonsoft.Json.xml
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 13\obj\x64\Debug\MainWindow.g.cs
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 13\obj\x64\Debug\App.g.cs
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 13\obj\x64\Debug\lecture 13_Content.g.cs
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 13\obj\x64\Debug\lecture 13_MarkupCompile.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 13\obj\x64\Debug\lecture 13_MarkupCompile.lref
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 13\obj\x64\Debug\MainWindow.baml
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 13\obj\x64\Debug\lecture 13.g.resources
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 13\obj\x64\Debug\lecture_13.Properties.Resources.resources
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 13\obj\x64\Debug\lecture 13.csproj.GenerateResource.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 13\obj\x64\Debug\lecture 13.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 13\obj\x64\Debug\lecture 13.csproj.CopyComplete
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 13\obj\x64\Debug\lecture 13.exe
+C:\Users\Furkan Gözükara\Desktop\progralamaya giris 2019\source codes\lecture 13\obj\x64\Debug\lecture 13.pdb

@@ -11,6 +11,8 @@
         <Button Name="btnCheckUser" Content="check this user exists" HorizontalAlignment="Left" Margin="331,131,0,0" VerticalAlignment="Top" Width="154" Click="BtnCheckUser_Click"/>
         <TextBox x:Name="txtUser" HorizontalAlignment="Left" Height="23" Margin="26,127,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="23" Margin="169,128,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnCheck" Content="check multi user exists" HorizontalAlignment="Left" Margin="536,131,0,0" VerticalAlignment="Top" Width="149" Click="BtnCheck_Click"/>
+        <Label Name="lblUserCount" Content="Label" HorizontalAlignment="Left" Margin="485,29,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
